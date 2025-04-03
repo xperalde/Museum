@@ -1,0 +1,100 @@
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Обнуляем стили для текста и шрифтов */
+body {
+  font-family: Roboto;
+	font-weight: 300;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Убираем стандартные стили для списков */
+ol, ul {
+  list-style: none;
+}
+
+/* Убираем стили для ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Убираем стандартные стили для таблиц */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  padding: 0;
+  text-align: left;
+}
+
+/* Убираем стили для форм */
+input, button, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+}
+
+/* Для изображения, чтобы оно не растягивалось */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Убираем стили для форм элементов */
+input[type="checkbox"], input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Для фокусов на элементах */
+:focus {
+  outline: none;
+}
+
+/* Убираем стили для кнопок */
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Для всех div, section, article и т.д. */
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Стандартные стили для flex контейнеров */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
