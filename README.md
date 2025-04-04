@@ -2,7 +2,7 @@
 # Основные: React + TypeScript + Redux + Material UI
 # Дополнительные: React Router + Material UI + UUID
 
-[Приложение на GitHub Pages](https://xperalde.github.io/Museum/products)
+[Приложение на GitHub Pages][(https://xperalde.github.io/Museum/products)](https://xperalde.github.io/Museum/products)
 
 Этот проект использует современный стек технологий для создания веб-приложений. В нем применены React, TypeScript, Vite и другие инструменты, которые помогают сделать процесс разработки быстрым и удобным.
 
