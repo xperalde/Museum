@@ -94,7 +94,7 @@ const CardList: React.FC = () => {
             <Pagination
               count={totalPages}
               page={currentPage}
-              onChange={(e, value) => dispatch(setCurrentPage(value))}
+              onChange={(_, value:number) => dispatch(setCurrentPage(value))}
               shape="rounded"
             />
             <Button
